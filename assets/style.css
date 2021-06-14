@@ -1,0 +1,51 @@
+.btn-labeled {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-deals {
+  height: auto;
+  background-color: #0568fd;
+}
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 240px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.checked {
+  color: orange;
+}
+
+.shop .btn {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-outline-primary {
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  background-color: #f2f2f2;
+}
