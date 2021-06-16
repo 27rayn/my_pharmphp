@@ -22,14 +22,50 @@ class Auth extends CI_Controller {
         } 
         else{
             // Validasi
-            
-
+            $this->_login();
         }
-
-
-        // redirect('Auth');
-        
     }
+
+        private function _login()
+        {
+            $email =  $this->input->post('email');
+            $password =  $this->input->post('Password');
+
+            $user = $this->db->get_where('user', ['email' => $email])->row_array();
+            
+            if($user){ //ada user
+                //if user active
+                if($user['is_active'] == 1){
+                   //cek password
+                   if(password_verify($password, $user['password'])){
+                    $data = [
+                        'email' => $user['email'],
+                        'role' => $user['role']
+                    ];
+                    $this->session->set_userdata($data);
+                    redirect('afterlogin');
+                   }else{
+                    $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">
+                    Wrong password</div>');
+                    redirect('Auth');
+                   }
+                    
+                }else {
+                    $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">
+                    Your email has not been activated</div>');
+                    redirect('Auth');
+                }
+                
+            } else {
+                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">
+                Email ga terdaftar</div>');
+                redirect('Auth');
+            }
+        }
+    
+
+        
+
     
     public function register()
     {
@@ -55,7 +91,7 @@ class Auth extends CI_Controller {
                 'lastname' => htmlspecialchars($this->input->post('lastname', true)),
                 'email' => $this->input->post('email'),
                 'image' => 'default.jpg',
-                'password'=> md5($this->input->post('password1')),
+                'password'=> password_hash($this->input->post('password1'), PASSWORD_DEFAULT),
                 'role' => 2,
                 'is_active' => 1,
                 'date_created' => time()
@@ -67,4 +103,6 @@ class Auth extends CI_Controller {
             redirect('Auth');
         }
     }
+
+    
 }

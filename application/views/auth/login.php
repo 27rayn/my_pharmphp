@@ -44,7 +44,8 @@
               <div class="form-row">
                 <div class="mb-4">
                   <label for="password" class="form-label">Password</label>
-                  <input type="password" id="password" placeholder="minimun 8 characters" class="form-control rounded-3" name="Password" />
+                  <input type="password" id="password" placeholder="minimun 8 characters" class="form-control rounded-3"
+                  name="Password" />
                   <?= form_error('Password', ' <small class="text-danger">', '</small>') ?>
                 </div>
               </div>

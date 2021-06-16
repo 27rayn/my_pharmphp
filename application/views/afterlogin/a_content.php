@@ -46,7 +46,7 @@
                 <li><a class="dropdown-item" href="#">Order History</a></li>
                 <li><a class="dropdown-item" href="#">Settings</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="index.html">Sign out</a></li>
+                <li><a class="dropdown-item" href="auth">Sign out</a></li>
               </ul>
             </div>
             <a class="btn btn-labeled btn-primary mx-2" type="submit">
@@ -70,10 +70,6 @@
             Now, you can get your medicine without leaving your house. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ante habitasse etiam vitae. In condimentum leo non in viverra lacus volutpat pretium in. Eget a condimentum
             dolor risus, est tempus porta.
           </p>
-          <div class="justify-content-md-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Sign Up</button>
-            <button type="button" class="btn btn-outline-primary btn-lg px-4">Browse Shop</button>
-          </div>
         </div>
         <div class="col-lg-6">
           <img src="<?= base_url('assets');?>/img/Hero Image.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
