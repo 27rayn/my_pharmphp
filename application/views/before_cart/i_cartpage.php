@@ -100,8 +100,9 @@
                     </div>
                     <div class="col-2 text-end">
                       <div class="cart-item-options">
-                        <span class="iconify" data-icon="bi:x-circle" data-inline="false" style="font-size: 32px; color: red"></span>
-                      </div>
+                      <button type="button" class="btn-close" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove item">
+                          </button> 
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -125,8 +126,8 @@
                     </div>
                     <div class="col-2 text-end">
                       <div class="cart-item-options">
-                          <span class="iconify" data-icon="bi:x-circle" data-inline="false" style="font-size: 32px; color: red"></span>
-                        </a>
+                      <button type="button" class="btn-close" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove item">
+                          </button>
                       </div>
                     </div>
                   </div>
@@ -155,8 +156,8 @@
                     </div>
                     <div class="col-2 text-end">
                       <div class="cart-item-options">
-                          <span class="iconify" data-icon="bi:x-circle" data-inline="false" style="font-size: 32px; color: red"></span>
-                        </a>
+                      <button type="button" class="btn-close" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove item">
+                          </button>
                       </div>
                     </div>
                   </div>

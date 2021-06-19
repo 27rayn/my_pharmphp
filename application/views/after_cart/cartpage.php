@@ -97,7 +97,7 @@
                     <div class="col-10">
                       <div class="row">
                         <div class="col-md-6">
-                          <h5 class="cart-item-tittle">Skinker</h5>
+                          <h5 class="cart-item-tittle">Ailin Skincare - Night Routine</h5>
                           <small class="cart-item-subtittle">LA Pharmacy</small>
                           <ul class="cart-item-meta">
                             <li>
@@ -111,7 +111,8 @@
                     </div>
                     <div class="col-2 text-end">
                       <div class="cart-item-options">
-                        <span class="iconify" data-icon="bi:x-circle" data-inline="false" style="font-size: 32px; color: red"></span>
+                      <button type="button" class="btn-close" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove item">
+                          </button>
                       </div>
                     </div>
                   </div>
@@ -136,7 +137,8 @@
                     </div>
                     <div class="col-2 text-end">
                       <div class="cart-item-options">
-                          <span class="iconify" data-icon="bi:x-circle" data-inline="false" style="font-size: 32px; color: red"></span>
+                      <button type="button" class="btn-close" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove item">
+                          </button>
                         </a>
                       </div>
                     </div>
@@ -166,7 +168,8 @@
                     </div>
                     <div class="col-2 text-end">
                       <div class="cart-item-options">
-                          <span class="iconify" data-icon="bi:x-circle" data-inline="false" style="font-size: 32px; color: red"></span>
+                          <button type="button" class="btn-close" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove item">
+                          </button>
                         </a>
                       </div>
                     </div>
