@@ -65,6 +65,7 @@
                 </div>
               </div>
               <p>By creating an account you agree to our <a href="#" style="color: dodgerblue">Terms & Privacy</a>.</p>
+              <p>Already have an account? <a style="color: dodgerblue" href="<?= base_url('auth');?>">Login</a></p>
               <div class="form-row">
                 <div class="form">
                   <div class="d-grid my-4">

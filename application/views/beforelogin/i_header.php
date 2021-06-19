@@ -20,3 +20,51 @@
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   </head>
   <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="<?= base_url('assets');?> /img/Logo Navbar.png" alt="" width="115" height="50" /> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?= base_url('before_shop');?>">Shop</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown07">
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+                <li><a class="dropdown-item" href="#">Personal Care</a></li>
+                <li><a class="dropdown-item" href="#">Family Care</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                <li><a class="dropdown-item" href="#">Fitness</a></li>
+                <li><a class="dropdown-item" href="#">Health Devices</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form>
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
+          </form>
+          <a class="btn btn-primary mx-2" href="<?= base_url('auth/register');?>">Sign Up</a>
+            <a class="btn btn-outline-primary" href="<?= base_url('auth');?>">Login</a>
+            <a class="btn btn-labeled btn-primary mx-2" href="<?= base_url('before_cart');?>">
+              <span class="iconify" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9"></span>
+              Cart
+            </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
