@@ -23,13 +23,12 @@
   </head>
   <body class="bg-light">
   <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#"> <img src="<?= base_url('assets');?>/img/Logo Navbar.png" alt="" width="115" height="50" /> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarsExample07">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -67,7 +66,6 @@
       </div>
     </nav>
     <!-- Navbar End -->
-    
     <section id="cartpage">
       <div class="container" style="padding-top: 95px; padding-bottom: 95px;">
         <div class="row">
@@ -222,7 +220,7 @@
       <footer class="container py-5">
         <div class="row">
           <div class="col-12 col-md">
-            <img class="mb-2" src="img/Logo Navbar.png" width="180" height="auto" alt="" />
+            <img class="mb-2" src="<?= base_url('assets');?>/img/Logo Navbar.png" width="180" height="auto" alt="" />
             <small class="d-block mb-3 text-muted">&copy; 2019–2021</small>
           </div>
           <div class="col-6 col-md">
@@ -230,7 +228,7 @@
             <ul class="list-unstyled text-small">
               <li class="list-item" href="#">Call Us Free - 24/7</li>
               <li style="color: #3682f4; font-size: 24px; font-family: 'Mulish', sans-serif; font-weight: 700" class="list-item mt-1" href="#">3200 421 000</li>
-              <li class="list-item" href="#">221 Makassar Road, Street 46, Makassar</li>
+              <li class="list-item" href="#">221 Makassar Road,<br/>Street 46, Makassar</li>
             </ul>
           </div>
           <div class="col-6 col-md">

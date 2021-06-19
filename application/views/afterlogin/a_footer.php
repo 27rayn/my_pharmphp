@@ -11,7 +11,7 @@
             <ul class="list-unstyled text-small">
               <li class="list-item" href="#">Call Us Free - 24/7</li>
               <li style="color: #3682f4; font-size: 24px; font-family: 'Mulish', sans-serif; font-weight: 700" class="list-item mt-1" href="#">3200 421 000</li>
-              <li class="list-item" href="#">221 Makassar Road, Street 46, Makassar</li>
+              <li class="list-item" href="#">221 Makassar Road,<br/>Street 46, Makassar</li>
             </ul>
           </div>
           <div class="col-6 col-md">
