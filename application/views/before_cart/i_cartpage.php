@@ -167,11 +167,11 @@
             <div class="bg-white">
             <h2 class="py-3 ps-3 mb-3 text-uppercase" style="font-family: 'Poppins', sans-serif; font-weight: 500 ">Order total</h2>
             <ul class="list-group list-group-minimal mb-3">
-              <li class="list-group-item d-flex justify-content-between align-items-center border-bottom" style="border: 0">
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="border: 0">
                 Ailin Skincare - Night Routine
                 <span>250.000</span>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center border-bottom" style="border: 0">
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="border: 0">
                 Gym Gain Mass - 12 Serving
                 <span>540.000</span>
               </li>
@@ -179,7 +179,7 @@
                 Durex - Valentine Edition
                 <span>95.000</span>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center border-bottom"
+              <li class="list-group-item d-flex justify-content-between align-items-center"
               style="border: 0; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500">
                 Total
                 <span>885.000</span>
