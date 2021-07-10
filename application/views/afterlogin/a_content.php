@@ -110,203 +110,275 @@
     </section>
     <!-- Best Deals End -->
 
-    <!-- Best Sales Start -->
-    <section id="sscollection21">
+   <!-- Best Sales Start -->
+   <section id="bestsales">
       <div class="container py-5">
-        <h2 class="pb-2 border-bottom" style="color: #051e76; font-size: 32px; font-family: 'Mulish', sans-serif; font-weight: 700">Best sales on this week</h2>
+        <h2 class="pb-3" style="color: #051e76; font-size: 32px; font-family: 'Mulish', sans-serif; font-weight: 700">Best sales on this week</h2>
         <div class="row">
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Mask Group.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+           <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Nycotine.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Nykotine-50 Capsules by...</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 253.420</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+              <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Fitness.jpg" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 1.252.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+              <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Nerve.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Nerve Support Optimizer</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+              <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Mask Group.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+           <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Mask Group.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+           <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Mask Group.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+           <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Mask Group.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+           <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Mask Group.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+           <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Mask Group.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+           <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Mask Group.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+           <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-3">
-            <div class="card mt-5" style="width: auto">
-              <img src="<?= base_url('assets');?>/img/Mask Group.png" class="card-img-top" alt="..." />
-              <div class="card-body border-top">
-                <h5 class="card-title">Omron Arm Blood Pressure</h5>
-                <p class="card-text mb-2" style="color: #3682f4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span><br />
-                <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
-                <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+           <div class="col-md-4 col-lg-3">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body" style="margin-left: -1rem;">
+                    <h5 class="card-title">Nykotine</h5>
+                    <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span><br />
+                    <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
+                    <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;" ></span></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
