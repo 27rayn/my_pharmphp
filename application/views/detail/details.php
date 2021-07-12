@@ -131,6 +131,7 @@
                 <a href="#review">
               </div>
               <div class="star-rating" style="align-items: center; justify-content: center;">
+
               <?php if ($jumlah > 0) { ?>  
               <?php $avgr = $avg->rating / $jumlah; ?>
               <?php if (is_float($avgr)) { ?>
@@ -200,7 +201,7 @@
                 <input type="hidden" name="nama" value="<?= $detail->nama_product  ?>">
                 <input type="hidden" name="toko" value="<?= $detail->firstname . " " . $detail->lastname ?>">
                 <input type="hidden" name="gambar" value="<?= $detail->gambar ?>">
-                <input type="hidden" name="redirect" value="http://127.0.0.1/myPharm_-main/detail/index/<?= $detail->id_product ?>">
+                <input type="hidden" name="redirect" value="http://127.0.0.1/myPharm/detail/index/<?= $detail->id_product ?>">
                 <input type="number" class=" form-control form-control-xs" style="width: 5rem; margin-right: 1rem;" placeholder="Qty" min="1" name="qty" required />
                 <button type="submit" onclick="see()" id="toast" class="btn btn-primary btn-shadow d-block px-4" style="margin-right: 1rem;"><i class="bi bi-cart2 me-2" style="font-size: 18px;"></i></span>Add to cart</button>
                 <button type="submit" class="btn btn-outline-primary btn-shadow d-block" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist"><i class="bi bi-heart"></i></button>

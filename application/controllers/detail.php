@@ -27,7 +27,9 @@ class detail extends CI_Controller
         );
         $data['detail'] = $this->aftershop_model->getproductbyid($id);
         $data['review'] = $this->aftershop_model->getreview($id);
-        $data['jumlah'] = $this->aftershop_model->countallreview($id);
+        // $data['jumlah'] = $this->aftershop_model->countallreview($id);
+        $kembalian = $this->aftershop_model->countitem($id);
+        $data ['jumlah']=$kembalian[0]['jumlah'];
         $data['avg'] = $this->aftershop_model->totalreview($id);
         $this->load->view('detail/details', $data);
     }

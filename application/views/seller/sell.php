@@ -11,7 +11,7 @@
 
   <link rel="shortcut icon" href="img/icons/icon-48x48.png" />
 
-  <title>AdminKit Demo - Bootstrap 5 Admin Template</title>
+  <title>MyPharm - Dashboard</title>
 
   <link href="<?= base_url('assets/app.css') ?>" rel="stylesheet" />
 </head>
@@ -21,7 +21,7 @@
     <nav id="sidebar" class="sidebar">
       <div class="sidebar-content js-simplebar">
         <a class="sidebar-brand" href="index.html">
-          <span class="align-middle">AdminKit</span>
+          <span class="align-middle">MyPharm - Dashboard</span>
         </a>
 
         <ul class="sidebar-nav">

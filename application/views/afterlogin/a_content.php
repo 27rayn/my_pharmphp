@@ -142,7 +142,7 @@
                   <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
                   <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
                   <!-- image -->
-                  <img src="<?= base_url('assets'); ?>/img/Mask Group.png" class="card-img-top" alt="" />
+                  <img src="<?= base_url('assets'); ?>/img/Nycotine.png" class="card-img-top" alt="" />
                   <div class="card-body" style="margin-left: -1rem;">
                     <h5 class="card-title">Nykotine</h5>
                     <a href="#"><p class="store mb-2" style="font-family:'Poppins',sans-serif; font-size: 14px; font-weight: 500;">Inama Pharmacy</p></a>

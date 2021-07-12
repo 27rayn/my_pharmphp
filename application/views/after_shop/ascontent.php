@@ -11,68 +11,10 @@
 </div>
 <!-- sidebar start -->
 <section class="py-5">
-  <div class="container">
-    <class class="row">
-      <div class="col-12 col-md-4 col-lg-3">
-        <div class="flex-shrink-0 p-3" style="width: 280px">
-
-          <ul class="list-unstyled ps-0">
-            <li class="mb-1">
-              <h3 class="align-items-center rounded pb-2" style="font-family: 'Mulish', sans-serif">Category</h3>
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">All products</a></li>
-                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Pharmacy</a></li>
-                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Personal Care</a></li>
-                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Family Care</a></li>
-                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Accesories</a></li>
-                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Fitness</a></li>
-                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Health Devices</a></li>
-              </ul>
-            </li>
-            <li class="border-bottom my-3"></li>
-            <li class="mb-1">
-              <h3 class="align-items-center rounded pb-2" style="font-family: 'Mulish', sans-serif">Location</h3>
-              <div class="form-check px-5 pb-1">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Jakarta </label>
-              </div>
-              <div class="form-check px-5 pb-1">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Makassar </label>
-              </div>
-              <div class="form-check px-5 pb-1">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Mataram </label>
-              </div>
-              <div class="form-check px-5 pb-1">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Medan </label>
-              </div>
-              <div class="form-check px-5 pb-1">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Surabaya </label>
-              </div>
-              <div class="form-check px-5">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Bandung </label>
-              </div>
-            </li>
-            <li class="border-bottom my-3"></li>
-            <li class="mb-1">
-              <h3 class="align-items-center rounded pb-2" style="font-family: 'Mulish', sans-serif">Price</h3>
-              <p class="align-items-center rounded text-muted" style="font-family: 'Mulish', sans-serif; font-weight: 600">Set your price</p>
-              <div class="d-flex align-items-center">
-                <!-- input -->
-                <input type="number" class="form-control form-control-xs" placeholder="Min Price" min="10" />
-                <!-- divider -->
-                <div class="text-gray-350 mx-2">-</div>
-                <input type="number" class="form-control form-control-xs" placeholder="Max Price" max="350" />
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-12 col-md-8 col-lg-9">
+    <div class="container">
+    <div class="row">
+    
+      <div class="col-12 col-md-8 col-lg-10 ">
         <?= $this->session->flashdata('message'); ?>
         <!--- MASIH JELEK NI GAN============================================== --->
         <div class=" col-12 text-md-end pb-4">
@@ -141,6 +83,65 @@
               </li>
             </ul>
           </nav>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-2 ">
+        <div class="flex-shrink-0 p-3" style="width: 280px">
+
+          <ul class="list-unstyled ps-0">
+            <li class="mb-1">
+              <h3 class="align-items-center rounded pb-2" style="font-family: 'Mulish', sans-serif">Category</h3>
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">All products</a></li>
+                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Pharmacy</a></li>
+                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Personal Care</a></li>
+                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Family Care</a></li>
+                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Accesories</a></li>
+                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Fitness</a></li>
+                <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Health Devices</a></li>
+              </ul>
+            </li>
+            <li class="border-bottom my-3"></li>
+            <li class="mb-1">
+              <h3 class="align-items-center rounded pb-2" style="font-family: 'Mulish', sans-serif">Location</h3>
+              <div class="form-check px-5 pb-1">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Jakarta </label>
+              </div>
+              <div class="form-check px-5 pb-1">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Makassar </label>
+              </div>
+              <div class="form-check px-5 pb-1">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Mataram </label>
+              </div>
+              <div class="form-check px-5 pb-1">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Medan </label>
+              </div>
+              <div class="form-check px-5 pb-1">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Surabaya </label>
+              </div>
+              <div class="form-check px-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Bandung </label>
+              </div>
+            </li>
+            <li class="border-bottom my-3"></li>
+            <li class="mb-1">
+              <h3 class="align-items-center rounded pb-2" style="font-family: 'Mulish', sans-serif">Price</h3>
+              <p class="align-items-center rounded text-muted" style="font-family: 'Mulish', sans-serif; font-weight: 600">Set your price</p>
+              <div class="d-flex align-items-center">
+                <!-- input -->
+                <input type="number" class="form-control form-control-xs" placeholder="Min Price" min="10" />
+                <!-- divider -->
+                <div class="text-gray-350 mx-2">-</div>
+                <input type="number" class="form-control form-control-xs" placeholder="Max Price" max="350" />
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
   </div>
